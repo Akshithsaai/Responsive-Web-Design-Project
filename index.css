@@ -279,7 +279,7 @@ height: 771px;
 }
 
 .circle-1 {
-    background: url(/Vector.png);
+    background: url(Vector.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #22A75D;
@@ -333,7 +333,7 @@ height: 771px;
 }
 
 .circle-2 {
-    background: url(/Vector\ 1.png);
+    background: url(Vector\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #2278D4;
@@ -411,7 +411,7 @@ height: 771px;
 }
 
 .circle-q1 {
-    background: url(/Q1.png) no-repeat center;
+    background: url(Q1.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -462,7 +462,7 @@ height: 771px;
 }
 
 .circle-q2 {
-    background: url(/Q2.png) no-repeat center;
+    background: url(Q2.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -513,7 +513,7 @@ height: 771px;
 }
 
 .circle-q3 {
-    background: url(/Q3.png) no-repeat center;
+    background: url(Q3.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -563,7 +563,7 @@ height: 771px;
 }
 
 .circle-q4 {
-    background: url(/Q4.png) no-repeat center;
+    background: url(Q4.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -720,7 +720,7 @@ table {
 .ten {
     display: flex;
     flex-direction: column;
-    background-image: url(/Group\ 37.png) ;
+    background-image: url(Group\ 37.png) ;
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -788,7 +788,7 @@ table {
 }
 
 .circle-01 {
-    background: url(/01.png) no-repeat center;
+    background: url(01.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -799,7 +799,7 @@ table {
 }
 
 .circle-02 {
-    background: url(/02.png) no-repeat center;
+    background: url(02.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -810,7 +810,7 @@ table {
 }
 
 .circle-03 {
-    background: url(/03.png) no-repeat center;
+    background: url(03.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
