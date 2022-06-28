@@ -1,6 +1,8 @@
 body {
     background: #0f111a;
     overflow: visible;
+    font-family: 'Century Gothic';
+    font-style: normal;
 }
 
 .Tokners {
@@ -8,8 +10,6 @@ body {
     height: 22px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Century Gothic';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
@@ -18,10 +18,26 @@ body {
     cursor: pointer;
 }
 
+.Tokners:hover {
+    width: 127px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 2%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 .Our-team {
     width: 65px;
     height: 17px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -34,7 +50,7 @@ body {
 .Tokens {
     width: 47px;
     height: 17px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -47,7 +63,7 @@ body {
 .Connect {
     width: 104px;
     height: 17px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -61,7 +77,7 @@ body {
 .Lightpaper {
     width: 73px;
     height: 17px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -75,7 +91,7 @@ body {
 button.Signin {
     width: 147px;
     height: 37px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -88,7 +104,7 @@ button.Signin {
 button.Signin:hover {
     width: 147px;
     height: 37px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -103,7 +119,7 @@ button.Signin:hover {
 button.Signup {
     width: 147px;
     height: 37px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -121,7 +137,7 @@ button.Signup {
 button.Signup:hover {
     width: 147px;
     height: 37px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -161,10 +177,24 @@ button.Signup:hover {
     align-items: center;
 }
 
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
 .we {
     width: 138px;
     height: 24px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -178,7 +208,7 @@ button.Signup:hover {
 .reimage {
     width: 562px;
     height: 162px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -190,7 +220,7 @@ button.Signup:hover {
 .para {
     width: 531px;
     height: 96px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -202,7 +232,7 @@ button.Signup:hover {
 .learn-more {
     width: 108px;
     height: 43px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -218,7 +248,7 @@ button.Signup:hover {
 .learn-more:hover {
     width: 108px;
     height: 43px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -252,10 +282,10 @@ button.Signup:hover {
     display: flex;
     float: right;
     width: 787px;
-height: 771px;
+    height: 771px;
     /* background-image: linear-gradient(180deg, #0f111a, #E20613, #2278D4, #22A75D 66%, #FFD100 98%, #0f111a 100%); */
-    
-    
+    transform: scale(0.8);
+
 }
 
 .rec-4 {
@@ -279,7 +309,7 @@ height: 771px;
 }
 
 .circle-1 {
-    background: url(Vector.png);
+    background: url(/Vector.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #22A75D;
@@ -289,7 +319,7 @@ height: 771px;
 }
 
 .for-creaters {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -319,7 +349,7 @@ height: 771px;
 }
 
 .para-2 {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -333,7 +363,7 @@ height: 771px;
 }
 
 .circle-2 {
-    background: url(Vector\ 1.png);
+    background: url(/Vector\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #2278D4;
@@ -345,22 +375,28 @@ height: 771px;
 .rec-11 {
     display: flex;
 }
+.rec-11-1{
+    display: flex;
+    width: 700px;
 
-
+}
+.rec-11-1 img{
+    width: 700px;
+}
 
 .rec-11-2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 10% 5% 1% 10%;
-    width: 50%;
+    padding: 10% 5% 0% 10%;
+    width: 100%;
     float: right;
     background: #FFFFFF;
     border-radius: 300px 0px 0px 0px;
 }
 
 .wmud {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -369,7 +405,7 @@ height: 771px;
 }
 
 .wmud-1 {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -379,7 +415,7 @@ height: 771px;
 }
 
 .wmud-2 {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -389,7 +425,7 @@ height: 771px;
 }
 
 .wmud-3 {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -411,7 +447,7 @@ height: 771px;
 }
 
 .circle-q1 {
-    background: url(Q1.png) no-repeat center;
+    background: url(/Q1.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -446,7 +482,7 @@ height: 771px;
 }
 
 .q1-info {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -462,7 +498,7 @@ height: 771px;
 }
 
 .circle-q2 {
-    background: url(Q2.png) no-repeat center;
+    background: url(/Q2.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -497,7 +533,7 @@ height: 771px;
 }
 
 .q2-info {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -513,7 +549,7 @@ height: 771px;
 }
 
 .circle-q3 {
-    background: url(Q3.png) no-repeat center;
+    background: url(/Q3.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -547,7 +583,7 @@ height: 771px;
 }
 
 .q3-info {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -563,7 +599,7 @@ height: 771px;
 }
 
 .circle-q4 {
-    background: url(Q4.png) no-repeat center;
+    background: url(/Q4.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -598,7 +634,7 @@ height: 771px;
 }
 
 .q4-info {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -609,7 +645,7 @@ height: 771px;
 }
 
 .t20 {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -633,7 +669,7 @@ table {
 .Tic {
     width: 392px;
     height: 54px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -651,7 +687,7 @@ table {
 
 .tic-desc {
     width: 644px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -708,6 +744,7 @@ table {
     padding-left: 1%;
     width: 600px;
     height: 770px;
+    transform: scale(0.7);
 }
 
 .nine {
@@ -720,11 +757,11 @@ table {
 .ten {
     display: flex;
     flex-direction: column;
-    background-image: url(Group\ 37.png) ;
+    background-image: url(/Group\ 37.png);
     background-repeat: no-repeat;
-    background-size:cover;
-    
+    background-size: cover;
 }
+
 .Presale {
     display: flex;
     justify-content: center;
@@ -732,7 +769,7 @@ table {
     width: 337px;
     height: 54px;
 
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -746,9 +783,10 @@ table {
 .cards {
     display: flex;
     justify-content: center;
-    font-family: 'Century Gothic';
+
     font-style: normal;
 }
+
 .card-1 {
     width: 250px;
     display: flex;
@@ -788,7 +826,7 @@ table {
 }
 
 .circle-01 {
-    background: url(01.png) no-repeat center;
+    background: url(/01.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -799,7 +837,7 @@ table {
 }
 
 .circle-02 {
-    background: url(02.png) no-repeat center;
+    background: url(/02.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -810,7 +848,7 @@ table {
 }
 
 .circle-03 {
-    background: url(03.png) no-repeat center;
+    background: url(/03.png) no-repeat center;
     background-size: 20px;
     width: 50px;
     height: 50px;
@@ -821,7 +859,7 @@ table {
 }
 
 .Phase {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
@@ -832,7 +870,7 @@ table {
 }
 
 .duration {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -859,7 +897,7 @@ table {
 }
 
 .How-to-buy {
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -875,10 +913,11 @@ table {
     justify-content: center;
     align-items: center;
 }
+
 .htb-card-1-desc {
     width: 262px;
     height: 60px;
-    font-family: 'Century Gothic';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -889,14 +928,14 @@ table {
     justify-content: center;
     align-items: center;
     padding-left: 10%;
-    padding-top:10%;
+    padding-top: 10%;
 }
 
 .htb-number {
     width: 212px;
     height: 24px;
-    padding:5% 0% 0% 10%;
-    font-family: 'Century Gothic';
+    padding: 5% 0% 0% 10%;
+
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -905,6 +944,7 @@ table {
     color: #FFFFFF;
     opacity: 0.3;
 }
+
 .htb-card-1 {
     width: 400px;
     height: 200px;
@@ -913,6 +953,7 @@ table {
     margin-right: 1%;
     margin-bottom: 3%;
 }
+
 .htb-card-2 {
     width: 400px;
     height: 200px;
@@ -921,6 +962,7 @@ table {
     margin-right: 1%;
     margin-top: 3%;
 }
+
 .htb-card-3 {
     width: 400px;
     height: 200px;
@@ -929,27 +971,41 @@ table {
     margin-right: 1%;
     margin-bottom: 3%;
 }
-.footer-1{
-        display: flex;
-        justify-content:center;
-        text-decoration: underline;
-        padding:1% 5% 1% 5%;
-        color: #FFFFFF;
-        font-family: 'Century Gothic';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 20px;
-        /* identical to box height */
-        margin-top: 7%;
-        letter-spacing: -0.02em;
-        text-decoration-line: underline;
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 1% 5% 1% 5%;
+    color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    margin-top: 7%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
 }
-.footer-2{
+
+.footer-2 {
     margin-top: 10%;
     margin-bottom: 5%;
     display: flex;
     justify-content: space-around;
+}
+.Tokners-1{
+    width: 127px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 2%;
+    cursor: pointer;
 }
 .fa {
     padding: 4px;
@@ -961,39 +1017,331 @@ table {
     border-radius: 50%;
     border: 2px solid #31333b;
 }
-.fa-twitter {
- background:#0f111a; 
-color: white;
+
+.fa:hover {
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid #31333b;
+    opacity: 0.5;
 }
+
+.fa-twitter {
+    background: #0f111a;
+    color: white;
+}
+
 .fa-instagram {
     background: #0f111a;
     color: white;
 }
+
 .fa-telegram {
     background: #0f111a;
     color: white;
 }
+
 .fa-github {
     background: #0f111a;
     color: white;
-  }
-  .fa-linkedin {
-    background: #0f111a;
-    color: white;
-  }
-  .fa-reddit {
-    background: #0f111a;
-    color: white;
-  }
+}
 
-  
-  
-.copyright{
-        font-family: 'Century Gothic';
-        font-style: normal;
+.fa-linkedin {
+    background: #0f111a;
+    color: white;
+}
+
+.fa-reddit {
+    background: #0f111a;
+    color: white;
+}
+
+.copyright {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:600px) {
+    
+    .Tokners {
+        height: 18px;
+        width: 105px;
+        
+        display: flex;
+        justify-content: flex-start;
         font-weight: 700;
-        font-size: 10px;
-        line-height: 22px;
-        text-align: right;
         color: #FFFFFF;
+        padding-left: 5%;
+        padding-right: 2%;
+        padding-top: 5%;
+        cursor: pointer;
+    }
+    .Tokners:hover {
+        height: 18px;
+        width: 105px;
+        
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 700;
+        color: #FFFFFF;
+        padding-left: 5%;
+        padding-right: 2%;
+        padding-top: 5%;
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    .Tokners img{
+        width: 40px;
+        height: 30px;
+    }
+    .one{
+
+        justify-content: space-between;
+        margin-top: 2%;
+        align-items: baseline;
+    }
+    .two{
+        display: none;
+        width: 100%;
+    }  
+    .five {
+        flex-wrap: wrap;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .six {
+        height: 100%;
+        width: 100%;
+    } 
+    .two.active{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 230px;
+    }
+
+    .two.active .Our-team,.two.active .Tokens,.two.active .Connect,.two.active .Lightpaper{
+        margin-top: 10px;
+    }
+    .two.active .three{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .two.active .Sign{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+    }
+    .two.active .Signup,.two.active .Signin{
+        border: none;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .toggle-button {
+        display: flex;
+        flex-direction: column-reverse;
+         width: 30px;
+         align-content: center;
+         
+     }
+     
+    .toggle-button .bar {
+         height: 3px;
+         width: 100%;
+         background-color: white;
+         border-radius: 10px;
+     }
+    .two.active.toggle-button{
+        display: flex;
+        position: fixed;
+    }
+    
+    
+    .we {
+        Width: 121px;
+        Height: 24px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .reimage {
+        line-break: strict;
+        width: 90%;
+        height: 90%;
+        font-size: 30px;
+    }
+
+    .para {
+        width: 90%;
+        height: 100%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .learn-more {
+        width: 40%;
+        background-color: #22A75D;
+        color: #FFFFFF;
+        font-size: small;
+    }
+
+    .learn-more:hover {
+        width: 40%;
+        font-size: small;
+        background-color: #171B29;
+        border: 2px solid #22A75D;
+    }
+
+    .seven {
+        transform: scaleX(1.1) scaleY(1.1);
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .rectangles {
+        display: block;
+        height: 100%;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+
+    .rec-4 {
+        height: 100%;
+        width: 100%;
+        background: #171B29;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin: 2% 0% 2% 2%;
+        padding: 3%;
+    }
+
+    .rec-4-2 {
+        height: 100%;
+        width: 100%;
+        background: #171B29;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+        margin: 2% 0% 2% 2%;
+        padding: 3%;
+
+    }
+    .rec-11{
+        flex-wrap: wrap;
+    }
+
+    .rec-11-1 img {
+        width: 100%;
+        transform:scaleX(-1);;
+    }
+    .rec-11-2{
+        border-radius: 0px 100px 0px 0px;
+    }
+    .qualities{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .eight{
+        flex-wrap: wrap-reverse;
+        
+    }
+    .woman{
+        transform: scale(0.8);
+        padding-left: 0px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .TIC {
+        padding-left: 1%;
+        width: 100%;
+    }
+    .tokner-is-coming{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Tic{
+        font-size: 32px;
+        width: 100%;
+    }
+    .tic-desc{
+        font-size: 14px;
+        width: 89%;
+    }
+
+    .footer-1{
+        display: none;
+    }
+    .footer-2{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-2 .Tokners-1{
+            width: 180px;
+            height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 9%;
+    padding-right: 2%;
+    cursor: pointer;
+    text-align: center;
+    }
+    .footer-2 img{
+        padding-left: 50px;
+        width: 50px;
+        height: 30px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .htb-cards{
+        flex-direction: column;
+        transform: scale(0.85);
+    }
+    .htb-card-1,.htb-card-2,.htb-card-3{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .htb-card-1-desc{
+        font-size: 18px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card-1,.card-2,.card-3{
+        margin: 1%;
+    }
+    .ten {
+        display: flex;
+        flex-direction: column;
+        background-image: url(/Group\ 37.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-size: cover;
+        height:100%;
+    }
+
 }
