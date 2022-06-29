@@ -1075,7 +1075,7 @@ table {
     .Tokners {
         height: 18px;
         width: 105px;
-        
+        font-size:30px ;
         display: flex;
         justify-content: flex-start;
         font-weight: 700;
@@ -1132,7 +1132,14 @@ table {
     }
 
     .two.active .Our-team,.two.active .Tokens,.two.active .Connect,.two.active .Lightpaper{
-        margin-top: 10px;
+        margin-top: 15px;
+    }
+    .two.active .Our-team:hover,.two.active .Tokens:hover,.two.active .Connect:hover,.two.active .Lightpaper:hover{
+        margin-top: 15px;
+        background-color:#20222a;
+        width: 60%;
+        text-align: center;
+        border-radius: 20px;
     }
     .two.active .three{
         flex-direction: column;
@@ -1143,12 +1150,18 @@ table {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 2%;
+        margin-top: 10px;
     }
     .two.active .Signup,.two.active .Signin{
         border: none;
         width: 100%;
         margin-right: 0px;
+    }
+    .two.active .Signup:hover,.two.active .Signin:hover{
+        border: none;
+        width: 100%;
+        margin-right: 0px;
+        background-color: #20222a;
     }
     .toggle-button {
         display: flex;
@@ -1217,7 +1230,12 @@ table {
         overflow: hidden;
         margin-top: 100px;
     }
-
+    .for-creaters{
+        font-size: 25px;
+    }
+    .para-2{
+        font-size:13px ;
+    }
     .rec-4 {
         height: 100%;
         width: 100%;
@@ -1337,7 +1355,7 @@ table {
     .ten {
         display: flex;
         flex-direction: column;
-        background-image: url(Group\ 37.png);
+        background-image: url(/Group\ 37.png);
         background-repeat: no-repeat;
         background-position-x: right;
         background-size: cover;
