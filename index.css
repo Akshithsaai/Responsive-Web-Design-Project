@@ -1355,7 +1355,7 @@ table {
     .ten {
         display: flex;
         flex-direction: column;
-        background-image: url(/Group\ 37.png);
+        background-image: url(Group\ 37.png);
         background-repeat: no-repeat;
         background-position-x: right;
         background-size: cover;
