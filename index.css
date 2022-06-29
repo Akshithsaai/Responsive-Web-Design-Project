@@ -1104,12 +1104,14 @@ table {
         height: 30px;
     }
     .one{
-
+flex-direction: column;
         justify-content: space-between;
         margin-top: 2%;
         align-items: baseline;
+        align-content: space-between;
     }
     .two{
+        margin-top: 2%;
         display: none;
         width: 100%;
     }  
@@ -1128,7 +1130,8 @@ table {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 230px;
+       
+        align-content: centers;
     }
 
     .two.active .Our-team,.two.active .Tokens,.two.active .Connect,.two.active .Lightpaper{
@@ -1168,7 +1171,9 @@ table {
         flex-direction: column-reverse;
          width: 30px;
          align-content: center;
-         
+        right: 32px;
+        top:32px;
+        position: absolute; 
      }
      
     .toggle-button .bar {
