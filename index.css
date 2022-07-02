@@ -1070,7 +1070,7 @@ table {
     color: #FFFFFF;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:900px) {
     
     .Tokners {
         height: 18px;
