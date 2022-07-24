@@ -6,7 +6,7 @@ Tech Stack Used :
 2. CSS
 
 ## Try it Out Here
-<a href="https://akshithsaai.github.io/HTML-CSS-Project/"> Check it out!!</a>
+<a href="https://akshithsaai.github.io/Responsive-Web-Design-Project/"> Check it out!!</a>
 
 ## Resposive Design
 The Image below is the Web page when a user is using **laptop** (bigger screens)  
