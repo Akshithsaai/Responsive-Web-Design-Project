@@ -16,6 +16,7 @@ body {
     padding-left: 5%;
     padding-right: 2%;
     cursor: pointer;
+    
 }
 
 .Tokners:hover {
@@ -35,59 +36,66 @@ body {
 }
 
 .Our-team {
-    width: 65px;
-    height: 17px;
-
+    width: 85px;
+    height: 37px;
+    margin-left: 10px;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 37px;
     color: #FFFFFF;
-    padding-right: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     cursor: pointer;
 }
 
 .Tokens {
     width: 47px;
-    height: 17px;
-
+    height: 37px;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
-    padding-right: 5%;
+    line-height: 37px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     color: #FFFFFF;
     cursor: pointer;
 }
-
 .Connect {
-    width: 104px;
-    height: 17px;
-
+    width: 170px;
+    height: 37px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+    line-height: 37px;
     color: #FFFFFF;
-    padding-right: 5%;
+    text-align: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     cursor: pointer;
 }
 
 .Lightpaper {
-    width: 73px;
-    height: 17px;
-
+    width: 75px;
+    height: 37px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 37px;
     text-align: center;
     color: #FFFFFF;
-    padding-right: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     cursor: pointer;
 }
-
+.Tokens:hover, .Lightpaper:hover ,.Connect:hover,.Our-team:hover{
+    color: #b6b6b6;
+    text-decoration-color: red;
+    font-size: 16px;
+    text-decoration-line: underline;
+}
 button.Signin {
     width: 147px;
     height: 37px;
@@ -363,7 +371,7 @@ button.Signup:hover {
 }
 
 .circle-2 {
-    background: url(Vector\ 1.png);
+    background: url(1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: #2278D4;
@@ -693,8 +701,6 @@ table {
     font-size: 14px;
     line-height: 24px;
     /* or 150% */
-
-
     color: #FFFFFF;
 
     opacity: 0.6;
@@ -757,7 +763,7 @@ table {
 .ten {
     display: flex;
     flex-direction: column;
-    background-image: url(Group\ 37.png);
+    background-image: url(37.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -906,6 +912,13 @@ table {
 
 
     color: #F7F5F9;
+}
+.ten-carousel{
+    display: none;
+    flex-direction: column;
+    background-image: url(37.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .htb-cards {
@@ -1070,7 +1083,7 @@ table {
     color: #FFFFFF;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:600px) {
     
     .Tokners {
         height: 18px;
@@ -1111,7 +1124,7 @@ flex-direction: column;
         align-content: space-between;
     }
     .two{
-        margin-top: 2%;
+        margin-top: 5%;
         display: none;
         width: 100%;
     }  
@@ -1129,20 +1142,20 @@ flex-direction: column;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
-       
-        align-content: centers;
+        align-items: center !important;
+        align-content:flex-start;
     }
 
     .two.active .Our-team,.two.active .Tokens,.two.active .Connect,.two.active .Lightpaper{
-        margin-top: 15px;
+        margin: 10px 0px;
     }
     .two.active .Our-team:hover,.two.active .Tokens:hover,.two.active .Connect:hover,.two.active .Lightpaper:hover{
-        margin-top: 15px;
+        margin: 10px 0px;
         background-color:#20222a;
-        width: 60%;
-        text-align: center;
-        border-radius: 20px;
+        width: 100%;
+        height: 200%;
+        text-align: left;
+        border-radius: 0px;
     }
     .two.active .three{
         flex-direction: column;
@@ -1152,19 +1165,21 @@ flex-direction: column;
     .two.active .Sign{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin-top: 10px;
+        margin-top: 1px;
     }
     .two.active .Signup,.two.active .Signin{
         border: none;
-        width: 100%;
+        width: 200%;
         margin-right: 0px;
+
     }
     .two.active .Signup:hover,.two.active .Signin:hover{
         border: none;
         width: 100%;
         margin-right: 0px;
         background-color: #20222a;
+        text-align: left;
+        
     }
     .toggle-button {
         display: flex;
@@ -1185,6 +1200,7 @@ flex-direction: column;
     .two.active.toggle-button{
         display: flex;
         position: fixed;
+
     }
     
     
@@ -1355,16 +1371,58 @@ flex-direction: column;
         flex-wrap: wrap;
     }
     .card-1,.card-2,.card-3{
-        margin: 1%;
+        display: flex !important;
+        justify-content: center !important;
+        margin: 10px 0px 10px 10px !important;
+        border-radius: 25px !important;
+        width: 80% !important;
+        height: 300px !important;
+        display: flex !important;
     }
-    .ten {
-        display: flex;
+    .ten{
+        display: none;
         flex-direction: column;
-        background-image: url(Group\ 37.png);
+        background-image: url(37.png);
         background-repeat: no-repeat;
         background-position-x: right;
         background-size: cover;
-        height:100%;
+    }
+    .ten-carousel{
+        display: flex;
+        flex-direction: column;
+        background-image: url(37.png);
+        background-repeat: no-repeat;
+        background-position-x:-110px;
+        background-size: 550%;
+        height: 100%;
+    }
+    /* .slick-slider{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .slick-slider button{\
+        display: flex;
+        margin-top: 50%;
+        width: 100px;
+        height: 30px;
+        font-size: 0px;
+        border-radius: 50%;
+        background-color: #0f111a;
     }
 
+    .slick-slider button:hover{
+        display: flex;
+        margin-top: 50%;
+        width: 100px;
+        height: 30px;
+        font-size: 0px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+    } */
+    .nine {
+        display: flex;
+        justify-content: center;
+        margin-top: 25%;
+        padding-top: 5%;
+    }
 }
