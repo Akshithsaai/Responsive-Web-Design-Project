@@ -70,6 +70,9 @@ hr{
 .seven{
     transform: scale(0.8);
 }
+label{
+    color: white;
+}
 .footer-2{
     margin-top:0% !important;
 }
